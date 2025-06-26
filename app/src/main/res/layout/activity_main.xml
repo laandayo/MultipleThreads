@@ -30,4 +30,14 @@
         android:id="@+id/imv_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="350px"
+        class="com.lan.multiplethreads.ListMenuFragment"
+        android:id="@+id/fragment"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.lan.multiplethreads.DetailsFragment"
+        android:id="@+id/fragment2"/>
 </LinearLayout>
